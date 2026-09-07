@@ -2,7 +2,7 @@
 
 **Arte:** https://claude.ai/code/artifact/4b901f86-9537-4923-ab64-e6c6e4e403dd
 
-Formato quadrado 1080x1080 (Instagram/Facebook). Segue o **registro institucional** identificado no [DNA Visual MG](https://claude.ai/code/artifact/57e01ba5-f06f-484e-8dcc-344f1f5b60eb) (mesmo tratamento usado pelo Thaner em Páscoa e Dia da Mulher): fundo real da marca (o wireframe MG oficial, não uma cor chapada), tipografia contida, zero CTA, zero venda — só marca e data. O ícone MG aparece na versão recolorida com as cores da bandeira (ver post anterior).
+Formato quadrado 1080x1080 (Instagram/Facebook). Fundo azul-marinho com o motivo em losango nas cores da bandeira (verde/dourado), headline grande em caixa alta ("INDEPENDÊNCIA") na mesma tipografia bold/sans que o Thaner usa nas peças de produto, sem CTA — zero venda, só marca e data. Ícone MG na versão recolorida com as cores da bandeira.
 
 ## Legenda sugerida
 
