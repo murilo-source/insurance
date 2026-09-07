@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap');
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    a { color: #C9A227; }
+    a:hover { color: #E0BC4B; }
+  </style>
+</helmet>
+
+<div style="position: relative; width: 1080px; height: 1080px; background: #0B1E3A; overflow: hidden; color: #F4F1E8;">
+
+  <!-- large diamond motif referencing the flag, bleeding off the bottom-right -->
+  <div style="position: absolute; width: 980px; height: 980px; right: -420px; bottom: -420px; background: #12406B; transform: rotate(45deg); border-radius: 24px;"></div>
+  <div style="position: absolute; width: 760px; height: 760px; right: -310px; bottom: -310px; background: #0E3F27; transform: rotate(45deg); border-radius: 20px; opacity: 0.9;"></div>
+  <div style="position: absolute; width: 420px; height: 420px; right: -140px; bottom: -140px; background: #C9A227; transform: rotate(45deg); border-radius: 14px; opacity: 0.16;"></div>
+
+  <!-- content column -->
+  <div style="position: relative; height: 100%; display: flex; flex-direction: column; padding: 88px 88px 72px 88px;">
+
+    <!-- eyebrow -->
+    <div style="display: flex; flex-direction: column; gap: 14px;">
+      <div style="display: flex; align-items: center; gap: 14px;">
+        <div style="width: 34px; height: 6px; background: #0E9A4B;"></div>
+        <div style="width: 34px; height: 6px; background: #C9A227;"></div>
+        <span style="font-size: 16px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #C9A227;">7 de Setembro</span>
+      </div>
+    </div>
+
+    <!-- headline -->
+    <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; max-width: 760px; margin-top: 24px;">
+      <h1 style="font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 68px; line-height: 1.12; margin: 0 0 28px 0; color: #FBFAF6;">
+        A liberdade também se constrói com proteção.
+      </h1>
+      <p style="font-size: 22px; line-height: 1.6; margin: 0; max-width: 620px; color: #C9D2DE; font-weight: 400;">
+        Neste Dia da Independência, celebramos quem tem coragem de seguir em frente. E lembramos que toda conquista duradoura se apoia em segurança e planejamento.
+      </p>
+    </div>
+
+    <!-- divider -->
+    <div style="width: 100%; height: 1px; background: rgba(244,241,232,0.16); margin: 40px 0 32px 0;"></div>
+
+    <!-- footer / brand -->
+    <div style="display: flex; align-items: flex-end; justify-content: space-between;">
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div style="font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-size: 30px; letter-spacing: 0.5px; color: #FBFAF6;">
+          MG Gestão de Riscos
+        </div>
+        <div style="font-size: 15px; font-weight: 500; color: #9FB0C3; letter-spacing: 0.3px;">
+          Corretora de Seguros &middot; Proteção que dá liberdade para crescer
+        </div>
+      </div>
+      <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;">
+        <path d="M28 4L48 12V26C48 38 40 47.5 28 52C16 47.5 8 38 8 26V12L28 4Z" stroke="#C9A227" stroke-width="2.5" stroke-linejoin="round"/>
+        <path d="M18 27L25 34L38 20" stroke="#0E9A4B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
